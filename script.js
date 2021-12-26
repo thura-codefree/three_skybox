@@ -19,7 +19,7 @@ function init() {
     let controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.addEventListener('change', renderer);
     controls.minDistance = 50;
-    controls.maxDistance = 1500;
+//  controls.maxDistance = 1500;
 
     // step 7 skybox ပုံတွေသိမ်းဖို့ array ခန်းတစ်ခန်းဆောက်မယ်
     // alt + shift copy patse
